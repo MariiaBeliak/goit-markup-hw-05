@@ -516,6 +516,8 @@ display: flex;
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -527,6 +529,12 @@ display: flex;
     letter-spacing: 0.04em;
     color: #ffffff;
 }
+/* 
+.footer-input:focus{
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+} */
+
 
 .footer-form-btn {
     min-width: 165px;
@@ -547,6 +555,7 @@ display: flex;
     align-items: center;
     /* gap: 16px; */
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-telegram {
@@ -556,6 +565,10 @@ display: flex;
 }
 
 /* Footer Form */
+.footer-form {
+    margin-left: auto;
+}
+
 .footer-form-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -760,6 +773,7 @@ display: flex;
     justify-content: center;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+margin-right: 8px;
 }
 
 
@@ -787,7 +801,7 @@ display: flex;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     border: none;
-    /* border-radius: 4px; */
+    border-radius: 4px;
     min-width: 169px;
     display: block;
     cursor: pointer;
