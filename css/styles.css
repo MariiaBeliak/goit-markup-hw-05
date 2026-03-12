@@ -437,7 +437,7 @@ display: flex;
 
 .footer-container{
     display: flex;
-    gap: 120px;
+    /* gap: 120px; */
     align-items: baseline;
 }
 
@@ -469,11 +469,15 @@ display: flex;
         color: #fff;
         margin-bottom: 16px;
 }
+.footer-icons{
+    margin-left: 120px;
+}
 
 .footer-icons-list{
     display: flex;
     fill: #f4f4fd;
     gap: 16px;
+    
    
 }
 .footer-icons-item{
@@ -572,7 +576,8 @@ border-color:  #31d0aa;
 
 /* Footer Form */
 .footer-form {
-    margin-left: auto;
+    /* margin-left: auto; */
+    margin-left: 80px;
 }
 
 .footer-form-text {
